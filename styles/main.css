@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+header {
+    border: 1px dotted;
+}
+
+nav {
+    border: 1px dotted red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.country-nav {
+    border: 1px dotted green;
+}
+
+.img-header {
+    border: 1px dotted blue;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.country-name {
+    border: 1px dotted darkgoldenrod;
+}
+
+.country-content {
+    border: 1px dotted orchid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 1px dotted coral;
+}
+
