@@ -47,5 +47,20 @@ img {
 .card {
     background-color: #f1faee;
     color: #1d3557;
+    border-radius:25px;
+    box-shadow: 5px 8px 8px 4px #a8dadc;
+    align-content: center;
+    padding: 3rem;
+    
 }
 
+li {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* add class if adding more h3 */
+h3 {
+    text-align: center;
+    font-size: 1.3rem;
+}
