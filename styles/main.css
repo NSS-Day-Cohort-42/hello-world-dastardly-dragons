@@ -3,21 +3,26 @@ body {
 }
 
 header {
-    border: 1px dotted;
+    background-color: #a8dadc;
 }
 
 nav {
-    border: 1px dotted red;
+    padding: 1.5rem; 
     display: flex;
     justify-content: space-evenly;
+    background-color: #e63946;
 }
 
 .country-nav {
-    border: 1px dotted green;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #f1faee;
+    text-decoration: none;
 }
 
 .img-header {
-    border: 1px dotted blue;
     width: 100%;
 }
 
@@ -26,16 +31,21 @@ img {
 }
 
 .country-name {
-    border: 1px dotted darkgoldenrod;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    color: #1d3557;
 }
 
 .country-content {
-    border: 1px dotted orchid;
     display: flex;
     justify-content: space-evenly;
+    background-color: #457b9d;
+    padding: 66px 0;
 }
 
 .card {
-    border: 1px dotted coral;
+    background-color: #f1faee;
+    color: #1d3557;
 }
 
