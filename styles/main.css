@@ -1,25 +1,11 @@
+@import "./navbar.css";
+
 body {
     margin: 0;
 }
 
 header {
     background-color: #a8dadc;
-}
-
-nav {
-    padding: 1.5rem; 
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #e63946;
-}
-
-.country-nav {
-    font-size: 1.5rem;
-}
-
-a {
-    color: #f1faee;
-    text-decoration: none;
 }
 
 .img-header {
