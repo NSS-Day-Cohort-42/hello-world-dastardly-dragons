@@ -16,8 +16,10 @@ header {
     width: 100%;
 }
 
+
 img {
     width: 100%;
+    object-fit: cover;
 }
 
 .country-name {
