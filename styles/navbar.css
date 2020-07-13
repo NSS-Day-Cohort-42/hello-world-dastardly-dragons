@@ -3,10 +3,13 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: #e63946;
+    
 }
 
 .country-nav {
     font-size: 1.5rem;
+    white-space: nowrap;
+    margin: 0 1rem; 
 }
 
 a {

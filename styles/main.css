@@ -15,11 +15,8 @@ header {
 .img-header {
     width: 100%;
 }
-
-
 img {
     width: 100%;
-    object-fit: cover;
 }
 
 .country-name {
@@ -44,6 +41,7 @@ img {
     box-shadow: 5px 8px 8px 4px #a8dadc;
     align-content: center;
     padding: 3rem;
+    margin: 0 1rem;
     
 }
 
