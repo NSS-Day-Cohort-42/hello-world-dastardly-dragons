@@ -1,25 +1,11 @@
+@import "./navbar.css";
+
 body {
     margin: 0;
 }
 
 header {
     background-color: #a8dadc;
-}
-
-nav {
-    padding: 1.5rem; 
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #e63946;
-}
-
-.country-nav {
-    font-size: 1.5rem;
-}
-
-a {
-    color: #f1faee;
-    text-decoration: none;
 }
 
 .img-header {
@@ -50,5 +36,20 @@ img {
 .card {
     background-color: #f1faee;
     color: #1d3557;
+    border-radius:25px;
+    box-shadow: 5px 8px 8px 4px #a8dadc;
+    align-content: center;
+    padding: 3rem;
+    
 }
 
+li {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* add class if adding more h3 */
+h3 {
+    text-align: center;
+    font-size: 1.3rem;
+}
