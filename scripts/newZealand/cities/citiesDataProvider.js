@@ -13,6 +13,6 @@ const citiesCollection = [
     }
 ] 
 
-export const usecities = (citiesObj) => {
+export const useCities = (citiesObj) => {
     return citiesCollection.slice()
 }
