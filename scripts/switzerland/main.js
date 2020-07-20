@@ -1,7 +1,11 @@
 import {cityList} from './cities/citiesList.js'
+import {landmarksList} from './landmarks/landmarksList.js'
+import {headsList} from './heads/headsList.js'
 
 const pageBuilder = () => {
   cityList()
+  landmarksList()
+  headsList()
 }
 
 pageBuilder()
