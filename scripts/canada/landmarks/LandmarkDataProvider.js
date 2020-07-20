@@ -10,7 +10,7 @@ const landmarkCollection = [
     {
         landmark: "Niagara Falls",
         location: "Ontario"
-    },
+    }
    
 
 ]
