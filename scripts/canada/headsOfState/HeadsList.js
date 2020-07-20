@@ -1,4 +1,4 @@
-import {headsHTMLConverter} from "./HeadskHTMLConverter.js"
+import {headsHTMLConverter} from "./HeadsHTMLConverter.js"
 import {useHeadsOfState} from "./HeadsDataProvider.js"
 
 const headsOfState = useHeadsOfState()
