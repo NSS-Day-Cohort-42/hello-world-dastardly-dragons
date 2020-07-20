@@ -1,5 +1,5 @@
 
 export const cityHTMLConverter = (cityObj) => {
     return `
-        <li>${cityObj.city} pop. ${cityObj.population}</li>`
+        <li>${cityObj.city}, pop. ${cityObj.population}</li>`
 }

@@ -4,3 +4,5 @@ citiesList()
 import { landmarksList } from "./landmarks/landmarksList.js";
 landmarksList()
 
+import { headsList } from "./heads/headsList.js";
+headsList()
