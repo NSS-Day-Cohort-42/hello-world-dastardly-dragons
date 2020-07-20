@@ -1,14 +1,14 @@
-import {cityHTMLConverter} from "./CityDataProvider.js"
+import {cityHTMLConverter} from "./CityHTMLConverter.js"
 import {useCities} from "./CityDataProvider.js"
 
 const cities = useCities()
 
 const contentElement = document.querySelector(".country-content")
 
-const listOfCities = ""
+let listOfCities = ""
 
 cities.forEach(city => {
-    listOfCities.push(cityHTMLConverter(city))
+    listOfCities += (cityHTMLConverter(city))
 })
 
 export const addCitiesToDOM = () => {
