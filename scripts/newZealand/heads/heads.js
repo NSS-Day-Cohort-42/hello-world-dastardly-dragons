@@ -1,5 +1,5 @@
 export const headsAsHTML = (headsObj) => {
     return `
-    <li>${headsObj.name}, pop. ${headsObj.position}</li>
+    <li>${headsObj.name}, ${headsObj.position}</li>
     `
 }
