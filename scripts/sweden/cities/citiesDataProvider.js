@@ -1,14 +1,14 @@
 const cities = [
     {
-       name: ,
-       population: 
+       name:"Stockholm",
+       population: 980,000
     },
     {
-        name: ,
-        population: 
+        name:"Gothenburg",
+        population:510,000
     },
     {
-        name: ,
-        population:
+        name:"Helsenborg",
+        population:110,000
     }
 ]

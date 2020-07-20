@@ -1,14 +1,14 @@
 const landmarks = [
     {
-       name: ,
-       location: 
+       name:"The Turning Torso",
+       location: "Malmö" 
     },
     {
-        name: ,
-        location: 
+        name:"Svettekörka",
+        location: "Gothenburg"
     },
     {
-        name: ,
-        location: 
+        name:"Stockholm Cathedral",
+        location:"Stockholm"
     }
 ]
