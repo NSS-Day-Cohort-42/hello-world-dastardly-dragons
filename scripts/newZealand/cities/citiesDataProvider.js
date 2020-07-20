@@ -1,18 +1,18 @@
 const citiesCollection = [
     {
-        cityName: "Aukland"
+        cityName: "Aukland",
         population: "1,600,000"
     }, 
     {
-        cityName: "Nelson"
+        cityName: "Nelson",
         population: "52,900"
     }, 
     {
-        cityName: "Wellington"
+        cityName: "Wellington",
         population: "213,000"
     }
 ] 
 
-export const useCities = (citiesObj) => {
+export const useCities = () => {
     return citiesCollection.slice()
 }

@@ -1,2 +1,3 @@
-import { fishList } from "./cities/citiesList.js";
+import { citiesList } from "./cities/citiesList.js";
 citiesList()
+

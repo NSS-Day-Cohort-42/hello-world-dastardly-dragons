@@ -1,20 +1,22 @@
-@import { useCities } from "./citiesDataProvider";
-@import { citiesHTML } from "./cities.js";
+import { useCities } from "./citiesDataProvider.js"
+import { citiesAsHTML } from "./cities.js"
 
-export const fishList = () => {
+export const citiesList = () => {
+    const cities = useCities()
 
-    let htmlRepresentation = ""
-    for (const city of useCities) {
-        htmlRepresentation += citiesHTML(city)
+    let htmlRepresentations = ""
+    for (const city of cities) {
+        htmlRepresentations += citiesAsHTML(city)
     }
-}
 
 const contentTarget = document.querySelector(".country-content")
-contentTarget.citiesHTML =+ `
+
+contentTarget.innerHTML += `
     <section class="cities card">
         <h3>Major Cities</h3>
             <ul>
-                ${htmlRepresentation}
+                ${htmlRepresentations}
             </ul>
     </section>
 `
+}
