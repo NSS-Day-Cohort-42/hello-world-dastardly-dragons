@@ -1,5 +1,5 @@
 export const citiesAsHtml = (cityObj) => {
   return `
-        <li class="city__name">${cityObj.name}<br>Pop: ${cityObj.pop}</li>
+        <li class="city__name">${cityObj.name}, pop. ${cityObj.pop}</li>
   `
 }
