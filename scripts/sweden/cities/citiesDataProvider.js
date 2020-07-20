@@ -12,3 +12,8 @@ const cities = [
         population:110,000
     }
 ]
+
+
+export const useCities = () => {
+    return cities.slice()
+}

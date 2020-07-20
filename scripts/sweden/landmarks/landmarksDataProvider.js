@@ -12,3 +12,7 @@ const landmarks = [
         location:"Stockholm"
     }
 ]
+
+export const useLandmarks = () => {
+    return landmarks.slice()
+}

@@ -12,3 +12,7 @@ const heads = [
         position: "Minister for Culture and Democracy"
     }
 ]
+
+export const useHeads = () => {
+    return heads.slice()
+}
