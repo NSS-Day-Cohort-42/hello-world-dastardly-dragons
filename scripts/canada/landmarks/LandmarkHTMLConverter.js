@@ -1,4 +1,4 @@
-export const cityHTMLConverter = (cityObj) => {
+export const landmarkHTMLConverter = (landmarkObj) => {
     return `
-        <li>${cityObj.city} pop. ${cityObj.population}`
+        <li>${landmarkObj.landmark}, ${landmarkObj.location}`
 }
