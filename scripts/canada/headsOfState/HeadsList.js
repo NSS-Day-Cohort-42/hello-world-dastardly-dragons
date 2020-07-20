@@ -1,21 +1,21 @@
-import {landmarkHTMLConverter} from "./LandmarkHTMLConverter.js"
-import {useLandmarks} from "./LandmarkDataProvider.js"
+import {headsHTMLConverter} from "./HeadskHTMLConverter.js"
+import {useHeadsOfState} from "./HeadsDataProvider.js"
 
-const landmarks = useLandmarks()
+const headsOfState = useHeadsOfState()
 
 const contentElement = document.querySelector(".country-content")
 
-let listOfLandmarks = ""
+let listOfHeads = ""
 
-landmarks.forEach(landmark => {
-    listOfLandmarks += (landmarkHTMLConverter(landmark))
+headsOfState.forEach(head => {
+    listOfHeads += (headsHTMLConverter(head))
 })
 
-export const addLandmarksToDOM = () => {
+export const addHeadsToDOM = () => {
     contentElement.innerHTML += `
         <section class="card">
-            <h3>Major Landmarks</h3>
-                <ul>${listOfLandmarks}</ul>
+            <h3>Heads of State</h3>
+                <ul>${listOfHeads}</ul>
         </section>`
                 
 }
