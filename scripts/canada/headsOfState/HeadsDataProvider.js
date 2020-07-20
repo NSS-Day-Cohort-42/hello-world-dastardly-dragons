@@ -1,15 +1,15 @@
 const headsCollection = [
     {
         headOfState: "Elizabeth II",
-        Position: "Queen of Canada"
+        position: "Queen of Canada"
     },
     {
         headOfState: "Justin Trudeau",
-        Position: "Prime Minister"
+        position: "Prime Minister"
     },
     {
         headOfState: "Julie Payette",
-        Position: "Governor General"
+        position: "Governor General"
     }
    
 

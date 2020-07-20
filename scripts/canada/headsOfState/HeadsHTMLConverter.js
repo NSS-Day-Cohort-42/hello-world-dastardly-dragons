@@ -1,4 +1,4 @@
-export const landmarkHTMLConverter = (landmarkObj) => {
+export const headsHTMLConverter = (headsObj) => {
     return `
-        <li>${landmarkObj.landmark}, ${landmarkObj.location}</li>`
+        <li>${headsObj.headOfState}, ${headsObj.position}</li>`
 }
