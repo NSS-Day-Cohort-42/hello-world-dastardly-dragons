@@ -1,21 +1,21 @@
-import {cityHTMLConverter} from "./CityHTMLConverter.js"
-import {useCities} from "./CityDataProvider.js"
+import {landmarkHTMLConverter} from "./LandmarkHTMLConverter.js"
+import {useLandmarks} from "./LandmarkDataProvider.js"
 
-const cities = useCities()
+const landmarks = useLandmarks()
 
 const contentElement = document.querySelector(".country-content")
 
-let listOfCities = ""
+let listOfLandmarks = ""
 
-cities.forEach(city => {
-    listOfCities += (cityHTMLConverter(city))
+landmarks.forEach(landmark => {
+    listOfLandmarks += (landmarkHTMLConverter(landmark))
 })
 
-export const addCitiesToDOM = () => {
+export const addLandmarksToDOM = () => {
     contentElement.innerHTML += `
         <section class="card">
-            <h3>Major Cities</h3>
-                <ul>${listOfCities}</ul>
+            <h3>Major Landmarks</h3>
+                <ul>${listOfLandmarks}</ul>
         </section>`
                 
 }
