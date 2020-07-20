@@ -1,20 +1,20 @@
-import {useLandmark} from "./Landmark.js"
-import {landmarkHTML} from "./CityHTMLConverter.js"
+import {useLandmarks} from "./LandmarkDataProvider.js"
+import {LandmarksHTML} from "./LandmarkHTMLConverter.js"
 
-export const CityToDOM = () => {
+export const LandmarksToDOM = () => {
     const contentElement = document.querySelector('.country-content')
 
-    const cityArray = useCity()
+    const landmarkArray = useLandmarks()
 
-    let cityHTMLRep = ""
+    let landmarksHTMLRep = ""
 
-    for(const currentCityObj of cityArray) {
-        cityHTMLRep += CityHTML(currentCityObj)
+    for(const currentlandmarkObj of landmarkArray) {
+        landmarksHTMLRep += LandmarksHTML(currentlandmarkObj)
     }
     contentElement.innerHTML += `
         <section class="card">
-            <h3>Major Cities</h3>
-                <ul> ${cityHTMLRep}
+            <h3>Landmarks</h3>
+                <ul> ${landmarksHTMLRep}
                 </ul>
         </section>
 

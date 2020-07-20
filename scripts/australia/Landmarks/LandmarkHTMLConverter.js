@@ -1,6 +1,6 @@
 export const LandmarksHTML = (landmarkObj) => {
     return `
-        <li>${landmarkObj.name} pop. ${landmarkObj.location}</li>
+        <li>${landmarkObj.name}, ${landmarkObj.location}</li>
                      
     `
 }
