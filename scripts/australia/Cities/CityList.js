@@ -1,5 +1,5 @@
-import {useCity} from "./Cities/CityDataProvider.js"
-import {CityHTML} from "./Cities/CityHTMLConverter.js"
+import {useCity} from "./CityDataProvider.js"
+import {CityHTML} from "./CityHTMLConverter.js"
 
 export const CityToDOM = () => {
     const contentElement = document.querySelector('.country-content')
@@ -12,7 +12,12 @@ export const CityToDOM = () => {
         cityHTMLRep += CityHTML(currentCityObj)
     }
     contentElement.innerHTML += `
-        <article class
+        <section class="card">
+            <h3>Major Cities</h3>
+                <ul> ${cityHTMLRep}
+                </ul>
+        </section>
+
     `
 
 }
