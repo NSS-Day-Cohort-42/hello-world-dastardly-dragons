@@ -10,3 +10,11 @@ export const fishList = () => {
 }
 
 const contentTarget = document.querySelector(".country-content")
+contentTarget.citiesHTML =+ `
+    <section class="cities card">
+        <h3>Major Cities</h3>
+            <ul>
+                ${htmlRepresentation}
+            </ul>
+    </section>
+`
