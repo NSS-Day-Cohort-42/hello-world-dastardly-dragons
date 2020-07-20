@@ -1,21 +1,22 @@
 import {useCities} from "./citiesDataProvider.js"
 import {citiesAsHTML} from "./citiesHTMLConverter.js"
 
-const contentElement = document.querySelector(".country-content")
-const cities = citiesAsHTML()
-
-
-export const cityToDOM = () => {
-
-    contentElement.innerHTML += `
-    <section class="card">
-        <h3>Major Cities>
-        <ul>
-        ${cities}
-        </ul>`
-}
 
 export const cityList = () => {
-    const cityTest = useCities()
-    cityToDOM(cityTest)
+    const contentElement = document.querySelector(".country-content")
+    const cities = useCities()
+
+    let cityHTML = ""
+    for(const currentCity of cities) {
+        cityHTML += citiesAsHTML(currentCity)
+    }
+    contentElement.innerHTML += `
+        <section class="card">
+            <h3>Major Cities</h3>
+            <ul>
+            ${cityHTML}
+            </ul>
+        </section> `
 }
+
+

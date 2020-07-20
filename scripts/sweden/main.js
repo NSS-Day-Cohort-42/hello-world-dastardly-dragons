@@ -1,3 +1,3 @@
-import {cityToDOM} from './cities/citiesList.js'
+import {cityList} from './cities/citiesList.js'
 
-console.log(cityToDOM())
+console.log(cityList())
