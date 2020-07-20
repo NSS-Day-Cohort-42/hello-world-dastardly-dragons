@@ -14,7 +14,7 @@ landmarks.forEach(landmark => {
 export const addLandmarksToDOM = () => {
     contentElement.innerHTML += `
         <section class="card">
-            <h3>Major Landmarks</h3>
+            <h3>Landmarks</h3>
                 <ul>${listOfLandmarks}</ul>
         </section>`
                 
