@@ -1,19 +1,20 @@
-const cityCollection = [
+const landmarkCollection = [
     {
-        city: "Montreal",
-        population: "1,780,000"
+        landmark: "Bay of Fundy",
+        location: "Nova Scotia"
     },
     {
-        city: "Toronto",
-        population: "2,930,000"
+        landmark: "Banff National Park",
+        location: "Alberta"
     },
     {
-        city: "Quebec City",
-        population: "542,298"
-    }
+        landmark: "Niagara Falls",
+        location: "Ontario"
+    },
+   
 
 ]
 
-export const useCities = () => {
-    return cityCollection.slice()
+export const useLandmarks = () => {
+    return landmarkCollection.slice()
 }
