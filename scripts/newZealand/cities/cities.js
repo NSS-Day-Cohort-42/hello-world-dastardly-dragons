@@ -1,5 +1,5 @@
 export const citiesAsHTML = (citiesObj) => {
     return `
-    <li>${citiesObj.cityName} ${citiesObj.population}</li>
+    <li>${citiesObj.cityName}, pop. ${citiesObj.population}</li>
     `
 }
