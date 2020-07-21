@@ -11,7 +11,7 @@ export const headersList = () => {
 
 const contentTarget = document.querySelector(".country-header")
 
-contentTarget.innerHTML += `
+contentTarget.innerHTML = `
     ${htmlRepresentations}
 `
 }

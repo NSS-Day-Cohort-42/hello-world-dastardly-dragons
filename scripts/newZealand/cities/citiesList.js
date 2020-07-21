@@ -11,7 +11,7 @@ export const citiesList = () => {
 
 const contentTarget = document.querySelector(".country-content")
 
-contentTarget.innerHTML += `
+contentTarget.innerHTML = `
     <section class="cities card">
         <h3>Major Cities</h3>
             <ul>
