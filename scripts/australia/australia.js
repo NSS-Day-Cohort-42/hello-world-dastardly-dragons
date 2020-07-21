@@ -4,8 +4,10 @@ import { HeadsOfStateToDOM } from "./headsOfState/HeadsOfStateList.js"
 import {AustraliaHeaderToDOM} from "./headerToHTML/australiaheader.js"
 
 
-AustraliaHeaderToDOM()
-CityToDOM()
-LandmarksToDOM()
-HeadsOfStateToDOM()
+export const AustraliaPageBuilder = () => {
+    AustraliaHeaderToDOM()
+    CityToDOM()
+    LandmarksToDOM()
+    HeadsOfStateToDOM()
+}
 

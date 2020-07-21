@@ -3,8 +3,8 @@ import {headerToHTML} from "./HeaderHTMLConverter.js"
 
 const header = headerObj
 
-const contentElement = document.querySelector(".country-header")
 
 export const headerToDOM = () => {
+    const contentElement = document.querySelector(".country-header")
     contentElement.innerHTML = headerToHTML(header) 
 }
