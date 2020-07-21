@@ -1,7 +1,7 @@
 export const headerList = () => {
     const contentElement = document.querySelector(".country-header")
    
-    contentElement.innerHTML += `
+    contentElement.innerHTML = `
     <div class="img-header">
         <img src="/images/switzerland.jpg" alt="Switzerland countryside">
     </div>

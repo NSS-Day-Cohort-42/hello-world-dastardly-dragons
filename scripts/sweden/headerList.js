@@ -1,8 +1,8 @@
 
 export const headerList = () => {
-    const contentElement = document.querySelector(".headerStuff")
+    const contentElement = document.querySelector(".country-header")
    
-    contentElement.innerHTML += `
+    contentElement.innerHTML = `
     <div class="img-header">
         <img src="/images/swedenHeader.jpg" alt="Sundsvall, Sweden">
     </div>
