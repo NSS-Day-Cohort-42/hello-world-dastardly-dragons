@@ -1,5 +1,7 @@
 import {switzerlandPageBuilder} from './switzerland/switzerland.js'
 import { swedenPageBuilder } from './sweden/sweden.js'
+import {canadaPageBuilder} from "./canada/canada.js"
 
-switzerlandPageBuilder()
-swedenPageBuilder()
+canada.addEventListener("click", canadaPageBuilder)
+// switzerlandPageBuilder()
+// swedenPageBuilder()
