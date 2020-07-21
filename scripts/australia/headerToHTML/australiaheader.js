@@ -13,7 +13,7 @@ export const AustraliaHeaderToDOM = () => {
     }
     
     contentElement.innerHTML =`
-        <div class="header-content>
+        <div class="header-content">
             ${ausHeaderHTMLRep}
         </header>
              
