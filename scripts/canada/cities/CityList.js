@@ -12,7 +12,7 @@ cities.forEach(city => {
 })
 
 export const addCitiesToDOM = () => {
-    contentElement.innerHTML += `
+    contentElement.innerHTML = `
         <section class="card">
             <h3>Major Cities</h3>
                 <ul>${listOfCities}</ul>
