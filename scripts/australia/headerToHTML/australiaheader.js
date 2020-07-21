@@ -2,7 +2,7 @@ import {australiaHeader} from "./headerDataProvider.js"
 import {AusHeaderHTML} from "./australiaHeaderHTMLConverter.js"
 
 export const AustraliaHeaderToDOM = () => {
-    const contentElement = document.querySelector('header')
+    const contentElement = document.querySelector('.country-header')
 
     const headerArray = australiaHeader()
 
