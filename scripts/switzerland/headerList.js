@@ -1,5 +1,5 @@
 export const headerList = () => {
-    const contentElement = document.querySelector(".header")
+    const contentElement = document.querySelector(".country-header")
    
     contentElement.innerHTML += `
     <div class="img-header">
