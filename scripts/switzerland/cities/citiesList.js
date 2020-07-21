@@ -15,7 +15,7 @@ export const cityList = () => {
   }
 
   // updating HTML of DOM element with Fish List HTML
-  contentElement.innerHTML += `
+  contentElement.innerHTML = `
     <section class="cities card">
     <h3>Major Cities</h3>
     <ul>

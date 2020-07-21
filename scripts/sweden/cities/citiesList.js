@@ -10,7 +10,7 @@ export const cityList = () => {
     for(const currentCity of cities) {
         cityHTML += citiesAsHTML(currentCity)
     }
-    contentElement.innerHTML += `
+    contentElement.innerHTML = `
         <section class="card">
             <h3>Major Cities</h3>
             <ul>

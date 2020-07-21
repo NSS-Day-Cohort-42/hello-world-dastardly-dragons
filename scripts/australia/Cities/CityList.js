@@ -11,7 +11,7 @@ export const CityToDOM = () => {
     for(const currentCityObj of cityArray) {
         cityHTMLRep += CityHTML(currentCityObj)
     }
-    contentElement.innerHTML += `
+    contentElement.innerHTML = `
         <section class="card">
             <h3>Major Cities</h3>
                 <ul> ${cityHTMLRep}
