@@ -1,3 +1,9 @@
+//pagebuilder function will go here and encompass the below...
+
+
+import { headersList } from "./header/headersList.js";
+headersList()
+
 import { citiesList } from "./cities/citiesList.js";
 citiesList()
 
