@@ -3,11 +3,9 @@ import {landmarksList} from './landmarks/landmarksList.js'
 import {headsList} from './heads/headsList.js'
 import {headerList} from "./headerList.js"
 
-const pageBuilder = () => {
+export const switzerlandPageBuilder = () => {
   headerList()
   cityList()
   landmarksList()
   headsList()
 }
-
-pageBuilder()
