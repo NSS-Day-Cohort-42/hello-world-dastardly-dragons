@@ -5,4 +5,3 @@ import { swedenPageBuilder } from './sweden/sweden.js'
 switzerland.addEventListener("click", switzerlandPageBuilder)
 sweden.addEventListener("click", swedenPageBuilder)
 australia.addEventListener("click", AustraliaPageBuilder)
-canada.addEventListener("click", APageBuilder)
