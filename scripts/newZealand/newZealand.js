@@ -1,14 +1,12 @@
 //pagebuilder function will go here and encompass the below...
-
-
-import { headersList } from "./header/headersList.js";
-headersList()
-
-import { citiesList } from "./cities/citiesList.js";
-citiesList()
-
-import { landmarksList } from "./landmarks/landmarksList.js";
-landmarksList()
-
 import { headsList } from "./heads/headsList.js";
-headsList()
+import { landmarksList } from "./landmarks/landmarksList.js";
+import { citiesList } from "./cities/citiesList.js";
+import { headersList } from "./header/headersList.js";
+
+export const newZealandPageBuilder = () => {
+     headersList()
+    citiesList()
+    landmarksList()
+    headsList()
+}
